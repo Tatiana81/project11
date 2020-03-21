@@ -1,0 +1,10 @@
+@import url('./_error/popup__button_error.css');
+@import url('./_true/popup__button_true.css');
+@import url('./_checked/popup__button_checked.css');
+
+.popup__button {
+  width: 100%;
+  height: 50px;
+  border: 1px solid rgba(0, 0, 0, .2);
+  font-size: 36px;
+}

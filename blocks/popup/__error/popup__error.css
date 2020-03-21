@@ -1,0 +1,9 @@
+@import url('./_true/popup__error_true.css');
+@import url('./_false/popup__error_false.css');
+
+.popup__error {
+    margin: 0;
+    color: rgb(255,0,0);
+    font-size: 12px;
+    line-height: 15px;
+}

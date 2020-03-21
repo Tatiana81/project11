@@ -1,0 +1,7 @@
+.popup__input_true {
+    margin-bottom: 24px; 
+}
+
+.popup__input:last-of-type {
+    margin-bottom: 0;
+}
