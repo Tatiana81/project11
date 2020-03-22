@@ -28,10 +28,6 @@ module.exports = {
             inject: false, // стили НЕ нужно прописывать внутри тегов
             template: './src/index.html', // откуда брать образец для сравнения с текущим видом проекта
             filename: 'index.html' // имя выходного файла, то есть того, что окажется в папке dist после сборки
-        }),
-        require('autoprefixer'),
-        require('cssnano')({ // подключили cssnano
-            preset: 'default', // выбрали настройки по умолчанию
         })
     ]
 }
