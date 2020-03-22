@@ -22,7 +22,7 @@ module.exports = {
         ]
     },
     plugins: [
-        new MIniCssExtractPlugin({ filename: 'main.[contenthash].css' }),
+        new MIniCssExtractPlugin({ filename: './src/pages/index.[contenthash].css' }),
         new HtmlWebpackPlugin({
             // Означает, что:
             inject: false, // стили НЕ нужно прописывать внутри тегов
